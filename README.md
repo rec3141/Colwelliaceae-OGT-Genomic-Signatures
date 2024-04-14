@@ -1,7 +1,7 @@
 # Colwelliaceae-OGT-Genomic-Signatures
 Supporting documentation for publication. The documents included in this repository will allow you to recreate the analysis and figures in the paper that were made in R. 
 
-Figure 1. Phylogenetic Tree
+Figure 1. Phylogenetic Tree.
 Folder: Phylogenetics
 R Script: Figure 1.R
 Input Files: 
