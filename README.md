@@ -63,7 +63,7 @@ Input :
 -	./Patric Input/Colwelliaceae_families_local.tsv
 -	./Patric Input/Colwelliaceae_families_global.tsv
 -	./Supplementary Files&Figures/Protein Indices Data.tsv
--	./Supplementary Files&Figures/Colwelliaceae PF AA Calc.RDS
+-	./Supplementary Files&Figures/Colwelliaceae PF AA Calc.RDS , This file can be made via ./Amino Acid Indices/Amino Acid Indices Calc.R
 -	./OGT/Strain Ratk OGT Final.tsv
 -	./Phylogenetics/Sub-Clade ID.tsv
 
