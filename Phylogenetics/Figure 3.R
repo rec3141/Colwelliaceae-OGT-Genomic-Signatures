@@ -32,7 +32,7 @@ colnames(TC_df)[3] = "OGT Source"
 
 #-------------------------plot and save the figure - my strains and literature-----------------------------------------------
 tiff("./Figures/Figure 3.tiff",width = 8,height = 11, units = "in", res = 1200)
-ggplot(TC_df,aes(x = `ClusterName`,y = as.numeric(OGT))) + 
+ggplot(TC_df,aes(x = `ClusterName`,y = as.numeric(as.character(OGT)))) + 
   geom_boxplot(lwd = 1, color = "grey") +
   geom_jitter(color = TC_df$SubColor,alpha = 0.9, size = 2.5, aes(shape = `OGT Source`))+
   labs(x = "Taxonomic Clades", y = "Optimal Growth Temperature (°C)") +
